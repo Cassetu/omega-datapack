@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"[","color":"gold"},{"text":"Omega","color":"yellow","bold":true},{"text":"]","color":"gold"},{"text":" Datapack loaded successfully! ","color":"green"},{"text":"Massive desert world generation enabled.","color":"gray"}]
