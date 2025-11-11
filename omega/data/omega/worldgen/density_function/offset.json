@@ -1,23 +1,17 @@
 {
-  "type": "minecraft:flat_cache",
-  "argument": {
-    "type": "minecraft:cache_2d",
-    "argument": {
-      "type": "minecraft:add",
-      "argument1": -0.3,
-      "argument2": {
-        "type": "minecraft:mul",
-        "argument1": 2.5,
-        "argument2": {
-          "type": "minecraft:shifted_noise",
-          "noise": "minecraft:offset",
-          "xz_scale": 0.25,
-          "y_scale": 0,
-          "shift_x": "minecraft:shift_x",
-          "shift_y": 0,
-          "shift_z": "minecraft:shift_z"
-        }
-      }
+  "type": "minecraft:add",
+  "argument1": -0.3,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 2.5,
+    "argument2": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:offset",
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
     }
   }
 }
